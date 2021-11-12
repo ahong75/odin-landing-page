@@ -113,9 +113,11 @@ h2 {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 100px 150px 100px 150px;
+    padding: 100px 300px 100px 300px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quotetext {
@@ -126,4 +128,33 @@ h2 {
 
 .quoteperson {
     align-self: flex-end;
+}
+
+.ad {
+    height: 150px;
+    width: 1000px;
+    margin: 90px 40px 90px 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 500;
+    align-self: center;
+}
+
+.adtext {
+    margin-right: 70px;
+}
+
+.action {
+    margin-bottom: 10px;
+}
+
+.adbutton {
+    width: 100px;
+    height: 40px;
+    border-color: #E5E7EB;
 }
